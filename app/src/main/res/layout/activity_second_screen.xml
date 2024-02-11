@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bd"
+    tools:context=".Second_Screen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="I am a student studying at the MUIT University in Almaty, currently in my third year specializing in Information Security. I am originally from the city of Taraz. I have a keen interest in Android application development."
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textStyle="normal"
+         />
+
+
+
+    </ScrollView>
+</LinearLayout>
